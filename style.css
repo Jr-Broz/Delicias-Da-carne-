@@ -1,0 +1,229 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background: linear-gradient(90deg, #000, #1f1e1e);
+  color: #fff;
+}
+.introducao{
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+nav{
+  color: #fff;
+  border-width: 50px; 
+  font-family: 'Electrolize', sans-serif;
+}
+nav:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+h2, h3, h4, h5{
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+#menu-h{
+  list-style: none;  
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+}
+
+#menu-h li a {
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+#menu-h li a:hover{
+  color: red;
+  text-decoration: underline;
+  
+}
+
+#carnes{
+  text-align: center;
+  border: 5px #000 solid;
+}
+.cont{
+font-style:italic;
+font-weight: 900;
+}
+.numero{
+
+}
+.numero:hover{
+  text-decoration: underline;
+  transition: ease-in;
+}
+
+img{
+  border-color: #fff;
+  display: inline;
+  border-radius: 5px;
+  width: 200px;
+  height: 100px;
+}
+.rua:hover{
+  color: red;
+}
+#contato{
+  align-items: center;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+#sobreNos{
+  text-decoration: underline;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+.sobre{
+font-family: 'Josefin Slab', serif;
+text-align: center;
+font-size: 25px;
+font-weight: 700;
+}
+#funcionamento{
+
+  text-decoration: underline;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sessCarn{
+  align-items: center;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  
+}
+
+.carn{
+  
+  align-items: center;
+  height: 100vh;
+  /* background-image: url(RedBackgroun.jpg); */
+ 
+
+}
+.formu{
+  display: flex;
+  flex-direction: column;
+  border: solid 2px #fff;
+  border-radius: 5px;
+  width: 350px;
+  align-items: center;
+  margin: 0 auto;
+  box-shadow: 2px 5px;
+  filter: blur(0.2px);
+  
+}
+
+#paraTexto{
+
+  width:150px;
+  height: 100px;
+}
+
+
+selecionar {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.funcionar {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+}
+
+.opcoes {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  background-color: #000000;
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+.opcao {
+  display: block;
+  padding: 4px 0;
+  cursor: pointer;
+}
+
+.opcao:hover {
+  background-color: #f0f0f0;
+}
+
+.preferencias {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.selecionar .preferencias {
+  background-color: #ffffff;
+}
+
+.radio {
+  display: inline-block;
+  margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
+  .checkbox-dentro {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+
+  .checkbox-dentro[data-selected="true"] {
+    background-color: #ed0c0c;
+    border-color: #ed0c0c;
+  }
+
+
+.validando{
+
+  border: 1 px solid #0000;
+  display: flex;
+  white-space: nowrap;
+  flex-grow: 1;
+}
