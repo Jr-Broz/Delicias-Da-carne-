@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Delícias Da Carne</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="introducao">
+    <h1> Delícias da Carne exóticas</h1>
+  </header>
+  <nav>
+    <ul id="menu-h">
+      <li><a href="#carnes">
+          <p>Carnes</p>
+        </a> </li>
+      <li><a href="#contato">
+          <p>Contato</p>
+        </a></li>
+      <li><a href="#sobreNos">
+          <p>Sobre Nós</p>
+        </a></li>
+      <li><a href="#localizacao">
+          <p>Localização</p>
+        </a></li>
+      <li><a href="#funcionamento">
+          <p>Funcionamento</p>
+        </a></li>
+    </ul>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h3 classe="sessCarn"></h3>
+  <section id="carnes" class="carn">
+    <h3>Cortes Nobres:</h3>
+    <br>
+    <br>
+    <br>
+    <h4>Corte Tomahawk</h4>
+    <img src="fotos de carne/Tomahawk.jpg" alt="corte Tomahawk" title="Carne Tomahawk">
+    <br>
+    <br>
+    <br>
+    <h4>Frango</h4>
+
+    <img src="fotos de carne/Frango.jpg" alt="frango" title="Corte de frango">
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <h4>Carne Bovina</h4>
+
+    <img src="fotos de carne/Carne_Bovina.jpg" alt="carne bovina" title="carne de boi">
+
+    <br>
+    <br>
+    <br>
+    <h4>Costelas</h4>
+
+    <img src="fotos de carne/Costela.jpg" alt="Carne nobre Costela" title="Costela">
+    <br>
+    <br>
+    <br>
+    <br>
+  </section>
+    <section class="carn" id="carnes">
+
+      <h3>Carnes Exóticas:</h3>
+
+      <h4>Carne de Pato</h4>
+
+      <img src="fotos de carne/Pato.jpg" alt="Carne de pato" title="Carne de Pato">
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h4>Carne de Coelho</h4>
+
+
+      <img src="fotos de carne/coelho.jpg" alt="carne coelho" title="Carne De Coelho">
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <h4>Carne de Rã</h4>
+
+      <img src="fotos de carne/ra.jpg" alt="carne rã" title="Carne de Rã">
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <h4>Carne de Jacaré</h4>
+
+      <img src="fotos de carne/jacare.jpg" alt="Carne de Jacaré" title="Carne de Jacaré">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h4 id="sobreNos">Sobre Nós:</h4>
+  <ul class="sobre">
+    <li>Nós comemos</li>
+    <li>Nós bebemos</li>
+    <li>Nós cozinhamos</li>
+    <li>Nós viajamos para descobrir novos sabores</li>
+    <li>Nós conversamos sobre novos sabores</li>
+    <li>Nós acreditamos que comer é uma das grandes</li> maravilhas da vida.</li>
+  </ul>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <footer id="contato">
+    <h4>Fale Conosco:</h4>
+    <p class="numero">(21) 9721-30412</p>
+    <br>
+    <br>
+    <p class="cont">Preencha o formulário ou envie sua mensagem diretamente para o email: deliciasdacarne@gmail.com</p>
+    <br>
+    <br>
+    <form name="myForm" onsubmit="validar()">
+      <fieldset class="formu">
+        <br>
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="Escreva seu Nome" name="nomeUsuario"  id="colocarNome">
+        <br>
+        <label for="telefone">Telefone</label>
+        <input type="tel" placeholder="*********" name="telefone" id="proTelefone">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" placeholder="Seu Email @" name="Email" id="proEmail">
+        <br>
+
+ <textarea name="texto" id="colocaTextArea" placeholder="Nos escreva uma mensagem!"></textarea>
+        <br>
+        
+        <br>
+        <div class="form-input">
+  <div>Preferências:</div>
+  <label for="carnes_tradicionais" class="radio" onclick="selecionarCarne(this)">
+    <span name="escolha">Carnes Tradicionais</span>
+    <span class="preferencias"></span>
+  </label>
+  <br>
+
+  <label for="carnes_exoticas" class="radio" onclick="selecionarCarne(this)">
+    <span name="escolha">Carnes Exóticas</span>
+    <span class="preferencias"></span>
+  </label>
+  <br>
+  <label for="ambas" class="radio" onclick="selecionarCarne(this)">
+    <span name="escolha">Ambas</span>
+    <span class="preferencias"></span>
+    <br>
+  </label>
+  <br>
+</div>
+<br>
+  <div id="favoritas">
+              <h6>Tipos Favoritos:</h6>
+              <div class="selecionar">
+                <div class="funcionar">Seleciona uma opção</div>
+                <div class="opcoes">
+                  <div class="opcao" data-value="bovinas">Bovinas</div>
+                  <div class="opcao" data-value="suina">Suína</div>
+                  <div class="opcao" data-value="aves">Aves</div>
+                  <div class="opcao" data-value="frutos_mar">Frutos do Mar</div>
+                  <div class="opcao" data-value="outros">Outros
+                  </div>
+                </div><br>
+                
+              </div>
+            </div>
+<br>
+<br>
+<label for="comunicacao">Receber Comunicações por:</label>
+<br>
+<p id="marcarTodos" onclick="LigarTodosCheckboxes()" data-selected="false">
+  <span class="checkbox">
+    <span class="checkbox-dentro" data-selected="false"></span>
+  </span>Marcar Todos
+</p>
+<br>
+<p onclick="ligarCheckBox(this)">
+  <span class="checkbox">
+    <span class="checkbox-dentro" data-selected="false"></span>
+  </span>Email
+</p>
+<br>
+<p onclick="ligarCheckBox(this)">
+  <span class="checkbox">
+    <span class="checkbox-dentro" data-selected="false"></span>
+  </span>SMS
+</p>
+<br>
+        <button onclick="entregarFormulario()">Entregar Formulario</button>
+         </form>
+      </fieldset>
+    <br>
+    <br>
+    <section id="funcionamento">
+      <h4>Horário de Funcionamento</h4>
+      <br>
+      <p>Segunda à sexta das 7:00 às 19:00
+        <br>
+        <br>
+        Sábados das 7:00 às 15:00hs
+      </p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </section>
+    <section id="localizacao">
+      <h4>Nossa Localização:</h4>
+      <br>
+      <br>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.8795852324447!2d-43.19646642476734!3d-22.95466137922133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fe09f122171%3A0xcb6578915f0cf2be!2sR.%20Volunt%C3%A1rios%20da%20P%C3%A1tria%2C%20340%20-%20f%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022270-016!5e0!3m2!1sen!2sbr!4v1687368018246!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    </section>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
